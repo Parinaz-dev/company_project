@@ -1,0 +1,252 @@
+    body {
+        direction: rtl;
+        font-family: Shabnam;
+        margin: 0;
+        padding: 0;
+        background-color: #EFEFEF;
+    }
+    
+    @font-face {
+        src: url(../fonts/shabnam-font-v5.0.1/Shabnam-Bold.ttf);
+        font-family: Shabnam;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    header .p-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        background-color: #ffffff;
+    }
+    
+    header .p-header .c-header {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .p-header .c-header .image {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .p-header .c-header .navigation .item-list ul {
+        display: flex;
+    }
+    
+    header .p-header .c-header .navigation .item-list .item {
+        padding-left: 10px;
+        display: flex;
+    }
+    
+    header .p-header .c-header .line-vertical {
+        width: 2px;
+        height: 36px;
+        background-color: red;
+        margin: 0 10px;
+    }
+    
+    header .p-header .c-header .c-h .ancher-go {
+        background-color: #007AFD;
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+    }
+    
+    header .p-header .shop {
+        position: relative;
+    }
+    
+    header .p-header .shop .badge {
+        width: 20px;
+        height: 17px;
+        border-radius: 70px;
+        background-color: #007AFD;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 18px;
+        left: 20px;
+        right: 5px;
+    }
+    
+    header .p-header .shop .badge span {
+        font-size: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .c-h {
+        display: flex;
+        align-items: center;
+    }
+    
+    main .article-d .main-box-1 .section-o {
+        flex: 0 0 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 25px 20px 0 20px;
+    }
+    
+    main .article-d .main-box-1 .section-o .c-info {
+        display: flex;
+        flex: 0 0 100%;
+        justify-content: space-between;
+    }
+    
+    main .article-d .main-box-1 .section-o .c-info .right,
+    main .article-d .main-box-1 .section-o .c-info .between,
+    main .article-d .main-box-1 .section-o .c-info .left {
+        flex: 0 0 25%;
+        max-width: 25%;
+        display: flex;
+        box-shadow: 0 0 15px rgb(197, 173, 173);
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    
+    main .article-d .main-box-1 .section-o .c-info .right .line-vertical,
+    main .article-d .main-box-1 .section-o .c-info .between .line-vertical,
+    main .article-d .main-box-1 .section-o .c-info .left .line-vertical {
+        width: 1px;
+        height: 80px;
+        background-color: brown;
+        border-radius: 10px;
+        margin: 10px 10px 2px 6px;
+    }
+    
+    main .article-d .main-box-1 .section-o .c-info .right .text,
+    main .article-d .section-o .main-box-1 .c-info .between .text,
+    main .article-d .main-box-1 .section-o .c-info .left .text {
+        margin-right: 39px;
+    }
+    
+    main .article-d .main-box-1 .section-o .c-info .right .line-vertical .test {
+        align-items: flex-end;
+    }
+    /*.container {
+        margin: auto;
+        max-width: 1366px;
+        padding: 0 10px;
+        background-color: #ffffff;
+    }*/
+    
+    main .article-d .main-box-1 .section-i {
+        background-color: #ffffff;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 25px 20px 0 20px;
+        height: 700px;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .up {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 35px;
+        /*margin-top: 30px;*/
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .up .l-v {
+        width: 3px;
+        height: 40px;
+        background-color: brown;
+    }
+    /* main .article-d .section-i .e-info .text {
+     
+    }*/
+    
+    main .article-d .main-box-1 .section-i .e-info .up .line-horizontal {
+        width: 82%;
+        height: 1px;
+        background-color: blue;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down {
+        margin-left: 225px;
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /*main .article-d .section-i .e-info .down .first-phone {
+        padding: 30px;
+    }*/
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone {
+        flex: 0 0 20%;
+        max-width: 20%;
+        width: 212px;
+        height: 260px;
+        margin-inline-start: 92px;
+        /*box-shadow: ;*/
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone .image {
+        width: 256px;
+        height: 221px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone .line-horizontal {
+        width: 95%;
+        height: 1px;
+        background: black;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone .price {
+        margin-block-start: 15px;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone .t {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    main .article-d .main-box-1 .section-i .e-info .down .phone .t .t-2 {
+        margin-inline-end: 5px;
+    }
+    
+main .article-c .main-box-1 .article-base {
+    flex: 0 0 100%;
+    max-width: 100%;
+} 
+main .article-c .main-box-1 .article-base .text-right {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+main .article-c .main-box-1 .article-base .photo-left {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+
+
+    .main-box,
+    .main-box-1 {
+        margin: auto;
+        max-width: 1366px;
+    }
+    
+    /*.border-15 {
+        border-radius: 15px;
+    }         برای e-info      */
+    
+    .border-10 {
+        border-radius: 8px;
+    }

@@ -1,0 +1,22 @@
+
+Akso background kon ===> body {
+    background-image: url(R.jpg);
+}
+     *     *    *     *
+
+<form action="index.php" method="POST">
+<input type="text" name="txtname" value="parinaz"/>
+<input type="text" name="txtfamily" value="Ebrahimi"/>
+
+
+<select name="" id="">
+<option value="">...</option>
+<option value="">...</option>
+<select>
+<textarea name="" id="" cols="20" rows="10">
+this is desing for test </textarea>
+
+<input type="submit" value="ثبت داده ها" />
+
+</form>
+     *     *      *       *

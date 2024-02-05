@@ -1,0 +1,13 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.y {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-i width: 100%;
+    background-color: blueviolet;
+}

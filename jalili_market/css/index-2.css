@@ -1,0 +1,18 @@
+body {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+
+.setting {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.setting .child {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: brown;
+}

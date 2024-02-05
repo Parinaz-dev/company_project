@@ -1,0 +1,52 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.setting {
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.setting .child {
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    animation: test 3s 2s infinite;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+@keyframes test {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(0);
+    }
+}
+
+
+/*
+img {
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    margin-left: 100px;
+    position: relative;
+    z-index: 10;
+     transition: all 2s .5s 
+animation: worktest 2s .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ img:hover {
+    cursor: pointer;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+}
+ /*0.5 ==> .5     ,   0.05 ==> .05*/

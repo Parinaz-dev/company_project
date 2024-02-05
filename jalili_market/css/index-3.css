@@ -1,0 +1,7 @@
+body {
+    direction: rtl;
+}
+
+table {
+    border: 2px 10px rgb(153, 50, 114);
+}

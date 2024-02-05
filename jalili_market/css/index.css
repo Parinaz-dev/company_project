@@ -1,0 +1,34 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+.parent .child {
+    width: 200px;
+    height: 250px;
+    border: 5px double #ffbb0c;
+}
+
+.parent .child .image img {
+    height: 200px;
+    width: 200px;
+}
+
+.parent .child .title,
+.parent .child .test {
+    font-size: 15px;
+    text-align: center;
+}
